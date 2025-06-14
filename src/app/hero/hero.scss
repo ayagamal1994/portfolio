@@ -1,0 +1,19 @@
+.hero {
+    background-image: url(../../../public/pexels-goumbik-574073.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    .hero-details {
+        h1 {
+            font-weight: bold;
+            font-size: 70px
+        }
+        p {
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+    }
+}

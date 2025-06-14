@@ -1,0 +1,30 @@
+.about {
+    margin-top: 50px;
+    .about-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        h3 {
+            width: 30%;
+            font-size: 30px;
+            color: #343333
+        }
+        .about-details {
+            width: calc(70% - 20px);
+            p {
+                line-height: 1.8;
+            }
+            a {
+                background-color: #343333;
+                color: #fff;
+                padding: 10px 30px;
+                text-decoration: none;
+                margin-top: 20px;
+                display: inline-block;
+                font-weight: bold
+            }
+        }
+    }
+    
+}
