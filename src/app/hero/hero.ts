@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './hero.scss'
 })
 export class Hero {
-
+  name:string =  "Aya Gamal";
+  job:string = "front end developer"
 }
